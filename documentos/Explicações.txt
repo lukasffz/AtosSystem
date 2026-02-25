@@ -1,6 +1,3 @@
-# Atos
-Projeto de Desenvolvimento Web | Empresa de Consultoria e Desenvolvimento de Sistemas
-
 Explicações Site
 Header (Base)
 Cabeçalho horizontal minimalista (Fixo sempre em cima na tela)
@@ -9,7 +6,7 @@ Mostrar automaticamente em qual pagina estamos ao ir passando o mouse [globalti]
 	Tag Nav
 		Sobre (Redirecionando diretamente na home) -centro-
 		Serviços (Redirecionando diretamente na home) -centro-
-		Contato (Redirecionando para o formulario no final da home) -centro-
+		Contato (Redirecionando para outra pagina) -centro-
 	Ícone - Login (Caso tenha) -direita-
 
 
@@ -22,7 +19,6 @@ Footer (Base)
 	Copyright 2026 AtosSystem
 
 Main (Da página principal)
-    ----- Sobre -----
 	Quem Somos (Sobre)
 		Tempo de Mercado
 		Por que começamos
@@ -30,26 +26,19 @@ Main (Da página principal)
 	Como Trabalhamos (Sobre)
 		Frase de efeito (Atuamos com foco em inovação, performance e entrega de resultados alinhados aos objetivos de negócio de curto e longo prazo para cada um de nossos clientes.)
 		Projetos | Squads Gerenciadas | Consultoria/Suporte
-    Estatísticas
-		box com dados estatísticos especificando clientes ativos e problemas ja resolvidos 
-	
-    ----- Serviços -----
-    Imagens ilustrativas de cada serviço e breve explicação
-    Serviços
-        Consultoria (Section)
-            Explicação do que ocorre na consultoria e cada tipo de consultoria e como ajudaria na evolução [paxtecnologia] (Em cards com borda com baixa opacidade, o saiba mais apenas aparece ao passar o mouse -hover- [devise.dev])
-            Objetivo [devise.dev]
-            Saiba Mais
+		
 
-        Desenvolvimento de Sistemas (Section)
-            Especificação de cada tipo de sistema e breve explicação (Ex.: Sistema Web, APP, Automação, etc) (Em cards com borda com baixa opacidade, o saiba mais apenas aparece ao passar o mouse -hover- [devise.dev])
-            Objetivo [devise.dev]
-            Saiba Mais
+Imagens ilustrativas de cada serviço e breve explicação
+	Serviços
+		Consultoria (Section)
+			Explicação do que ocorre na consultoria e cada tipo de consultoria e como ajudaria na evolução [paxtecnologia] (Em cards com borda com baixa opacidade, o saiba mais apenas aparece ao passar o mouse -hover- [devise.dev])
+			Objetivo [devise.dev]
+			Saiba Mais
 
-    Forms de Contato [able2cloud]
-        Box1 [Nome | Email | Telefone | Mensagem || Enviar Mensagem]
-        Box2 [ícone + Telefone | ícone + Email | ícone + Localização]
-
+		Desenvolvimento de Sistemas (Section)
+			Especificação de cada tipo de sistema e breve explicação (Ex.: Sistema Web, APP, Automação, etc) (Em cards com borda com baixa opacidade, o saiba mais apenas aparece ao passar o mouse -hover- [devise.dev])
+			Objetivo [devise.dev]
+			Saiba Mais
 Extras:
 Apps, Sistemas, Consultoria, Segurança, Infraestrutura, Otimizações
 
@@ -69,9 +58,3 @@ Referências
 	https://www.deal.com.br/ -principal-
 	https://www.globalti.com.br/
 	https://www.thoughtworks.com/pt-br
-	https://able2.cloud/ -Form Contato-
-	https://ateliware.com/pt-br/ - Projetos já feitos -
-
-
-Prompt
-Refaça e considere que será um site de consultoria e desenvolvimento de sistemas, esse site será dividido em header [Com a logo na esquerda, navbar no meio e icone de login na direita], main [Sobre a empresa (quem somos e como trabalhamos + estatisticas), Nossos Serviços (Consultoria, desenvolvimento), Formulario de Contato]

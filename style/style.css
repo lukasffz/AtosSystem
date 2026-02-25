@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    height: 100%;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    min-height: 10vh;
+}
+main {
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background-color: #376299;
+    padding: 1rem;
+    min-height: 10vh;
+}
+
+.logoHeader img{
+    width: 80px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabeca {
+    background-color: #D2D2D2;
+    display: flex;
+}
+.cabeca .logoHeader {
+    width: 20%;
+}
+.cabeca nav {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabeca nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+.cabeca nav ul li {
+    font-size: 20px;
+    list-style: none;
+    color: white;
+}
+.cabeca nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.cabeca nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#servicos {
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+.tituloMeio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.boxesServicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 1rem;
+}
+.boxSobre {
+    height: 200px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.boxSobre .tituloSobre {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.containerProjetos {
+    height: 200px;
+}
+section {
+    margin-bottom: 50px;
+}
