@@ -10,13 +10,16 @@ body {
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
-header {
+.topo {
+    
     min-height: 10vh;
 }
 main {
     min-height: 80vh;
     justify-content: center;
     align-items: center;
+    background-color: #0A1F44;
+    color: white;
 }
 footer {
     background-color: #376299;
@@ -25,14 +28,18 @@ footer {
 }
 
 .logoHeader img{
-    width: 80px;
+    width: 150px;
     padding: 1rem;
     justify-content: center;
     align-items: center;
 }
 
 .cabeca {
-    background-color: #D2D2D2;
+    background-image: url(imagens/fundoCabecalho.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Opcional: fixa a imagem ao rolar a página */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
     display: flex;
 }
 .cabeca .logoHeader {
