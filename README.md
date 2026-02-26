@@ -2,6 +2,9 @@
 Projeto de Desenvolvimento Web | Empresa de Consultoria e Desenvolvimento de Sistemas
 
 Explicações Site
+COR BODY - background-image: linear-gradient(to bottom, #37539980, #122133);
+COR HEADER - background: #2f2f35; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+
 Header (Base)
 Cabeçalho horizontal minimalista (Fixo sempre em cima na tela)
 Mostrar automaticamente em qual pagina estamos ao ir passando o mouse [globalti]
@@ -22,17 +25,6 @@ Footer (Base)
 	Copyright 2026 AtosSystem
 
 Main (Da página principal)
-    ----- Sobre -----
-	Quem Somos (Sobre)
-		Tempo de Mercado
-		Por que começamos
-		Valores e ideias
-	Como Trabalhamos (Sobre)
-		Frase de efeito (Atuamos com foco em inovação, performance e entrega de resultados alinhados aos objetivos de negócio de curto e longo prazo para cada um de nossos clientes.)
-		Projetos | Squads Gerenciadas | Consultoria/Suporte
-    Estatísticas
-		box com dados estatísticos especificando clientes ativos e problemas ja resolvidos 
-	
     ----- Serviços -----
     Imagens ilustrativas de cada serviço e breve explicação
     Serviços
@@ -46,12 +38,27 @@ Main (Da página principal)
             Objetivo [devise.dev]
             Saiba Mais
 
+	----- Projetos -----
+	Section com 3 projetos de exemplo já realizados pela empresa (desenvolvimento)
+	Foto projeto | Breve descrição
+
+	----- Sobre -----
+	Quem Somos (Sobre)
+		Tempo de Mercado
+		Por que começamos
+		Valores e ideias
+	Como Trabalhamos (Sobre)
+		Frase de efeito (Atuamos com foco em inovação, performance e entrega de resultados alinhados aos objetivos de negócio de curto e longo prazo para cada um de nossos clientes.)
+		Projetos | Squads Gerenciadas | Consultoria/Suporte
+    Estatísticas
+		box com dados estatísticos especificando clientes ativos e problemas ja resolvidos 
+
+	----- Contato -----
     Forms de Contato [able2cloud]
         Box1 [Nome | Email | Telefone | Mensagem || Enviar Mensagem]
         Box2 [ícone + Telefone | ícone + Email | ícone + Localização]
 
-Extras:
-Apps, Sistemas, Consultoria, Segurança, Infraestrutura, Otimizações
+
 
 
 -----
@@ -71,7 +78,3 @@ Referências
 	https://www.thoughtworks.com/pt-br
 	https://able2.cloud/ -Form Contato-
 	https://ateliware.com/pt-br/ - Projetos já feitos -
-
-
-Prompt
-Refaça e considere que será um site de consultoria e desenvolvimento de sistemas, esse site será dividido em header [Com a logo na esquerda, navbar no meio e icone de login na direita], main [Sobre a empresa (quem somos e como trabalhamos + estatisticas), Nossos Serviços (Consultoria, desenvolvimento), Formulario de Contato]

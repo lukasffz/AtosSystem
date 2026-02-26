@@ -4,43 +4,53 @@
 }
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 150px;
 }
 body {
+    margin: 0;
     height: 100%;
-    min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #37539980, #122133);
+    padding-top: 50px;
 }
 .topo {
-    
-    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: fixed;
+    top: 0;
 }
 main {
+    margin-top: 80px;
     min-height: 80vh;
     justify-content: center;
     align-items: center;
-    background-color: #0A1F44;
     color: white;
 }
 footer {
-    background-color: #376299;
-    padding: 1rem;
-    min-height: 10vh;
+    background-color: #3A3A3F;
+    width: 100%;
+    height: 100%;
 }
 
 .logoHeader img{
-    width: 150px;
+    width: 125px;
     padding: 1rem;
     justify-content: center;
     align-items: center;
 }
 
 .cabeca {
-    background-image: url(imagens/fundoCabecalho.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Opcional: fixa a imagem ao rolar a página */
-    background-size: cover; /* Faz a imagem cobrir toda a área */
-    background-position: center; /* Centraliza a imagem */
+    position: fixed;
+    width: 70%;
+    background: #2f2f35;
+    padding: 15px 30px;
+    border-radius: 50px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 .cabeca .logoHeader {
     width: 20%;
@@ -48,7 +58,8 @@ footer {
 .cabeca nav {
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    margin-right: 2.5rem;
     align-items: center;
 }
 .cabeca nav ul {
@@ -58,11 +69,10 @@ footer {
 .cabeca nav ul li {
     font-size: 20px;
     list-style: none;
-    color: white;
 }
 .cabeca nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .cabeca nav ul li a:hover {
     text-decoration: underline;
@@ -70,7 +80,7 @@ footer {
 
 #servicos {
     padding: 1rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 .tituloMeio {
     display: flex;
@@ -80,26 +90,59 @@ footer {
 }
 .boxesServicos{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5rem;
     padding: 1rem;
 }
-.boxSobre {
-    height: 200px;
-    width: 500px;
-    border: 1px solid black;
+.boxServico {
+    height: 300px;
+    width: 800px;
+    border: 1px solid white;
     border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.4));
     padding: 1rem;
 }
-.boxSobre .tituloSobre {
+.boxServico .tituloServico {
     display: flex;
     justify-content: left;
     align-items: center;
 }
-.containerProjetos {
+.boxesTipo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.boxTipo {
+    width: 200px;
     height: 200px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.800);
+}
+.containerProjetos{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.tipoProjetos {
+    height: 300px;
+    width: 80%;
+    background-color: #3A3A3F;
+    border-radius: 5px;
 }
 section {
-    margin-bottom: 50px;
+    padding: 1.5rem;
+}
+.negocio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: white;
 }
