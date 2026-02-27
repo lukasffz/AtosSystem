@@ -40,7 +40,7 @@ Main (Da página principal)
 
 	----- Projetos -----
 	Section com 3 projetos de exemplo já realizados pela empresa (desenvolvimento)
-	Foto projeto | Breve descrição
+	Foto projeto | Tecnologias usadas - Provavelmente ícones -
 
 	----- Sobre -----
 	Quem Somos (Sobre)
@@ -65,7 +65,7 @@ Main (Da página principal)
 
 Main (Página de Consultoria & Página de DS [Separadas])
 Abaixo do Header, uma foto pegando toda a largura com o Título na frente (Section/div)
-	Explicação detalhada de cada tipo de consultoria ou desenvolvimento de sistemas em cards/box
+	Explicação detalhada de cada tipo de consultoria ou desenvolvimento de sistemas em sections
 	Jornada de Implementação (Cada Passo) [paxtecnologia & globalti]
 	Resultados e Ganhos (Por tema [Ex.: Agilidade; Lucro; Etc]) [paxtecnologia & globalti]
 	
