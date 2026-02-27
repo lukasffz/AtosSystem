@@ -68,6 +68,7 @@ Abaixo do Header, uma foto pegando toda a largura com o Título na frente (Secti
 	Explicação detalhada de cada tipo de consultoria ou desenvolvimento de sistemas em sections
 	Jornada de Implementação (Cada Passo) [paxtecnologia & globalti]
 	Resultados e Ganhos (Por tema [Ex.: Agilidade; Lucro; Etc]) [paxtecnologia & globalti]
+	Entrar em Contato
 	
 Referências
 	https://paxtecnologia.com.br/ (Imagens de cada serviço)
