@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #006eff7c;
+    padding-top: 50px;
+}
+main{
+    margin-top: 80px;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 150px;
+}
+footer {
+    background-color: #3A3A3F;
+    width: 100%;
+    height:100%;
+}
+.footerImgCopy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+}
+.logoHeader img{
+    width: 125px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.topo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: fixed;
+    top: 0;
+}
+.cabeca {
+    position: fixed;
+    width: 70%;
+    background: #2f2f35;
+    padding: 15px 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+.cabeca .logoHeader {
+    width: 20%;
+}
+.cabeca nav {
+    width: 80%;
+    display: flex;
+    justify-content: right;
+    margin-right: 2.5rem;
+    align-items: center;
+}
+.cabeca nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+.cabeca nav ul li {
+    font-size: 20px;
+    list-style: none;
+}
+.cabeca nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.cabeca nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#estrategica, #design, #tecnica{
+    padding: 1rem;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.titulo{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:  35px;
+    justify-content: left;
+}
+.titulotipo{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:  35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: -80px;
+    text-decoration: underline 2px;
+    
+}
+.editatexto{
+    font-size: 19px;
+    max-width: 800px;          
+    width: 90%;                 
+    
+}
+.editatexto p{
+      
+        text-justify: inter-word;
+        font-size: 18px;
+        line-height: 1.8;
+        letter-spacing: 0.3px;      
+        word-spacing: 1px;
+        justify-content: left;
+
+}
+.parede{
+    padding: 40px 20px;
+    width: 60%;
+    height: 50%;
+    display: flex;
+}
+
+.boxcontato{
+    border: 2px solid #122133;
+    width: 190px;
+    height: auto;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: white;
+}
+#contato {
+    display: flex;
+    background-color: #122133;
+    justify-content: space-between;
+}
+#contato .parede {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25rem;
+}
+#contato .parede2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25rem;
+}
+
+#tecnica, #contato, #design, #estrategica, #explicacaoConsultoria {
+    min-width: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    min-height: 500px;
+    justify-content: center;
+}
+section{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#contato{
+    background-image: url(../imagens/backgroundLogo.png);
+}
