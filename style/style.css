@@ -35,7 +35,8 @@ footer {
 }
 .footerImgCopy{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 2rem;
     color: white;
@@ -94,6 +95,11 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    background: linear-gradient(to right, #000000b2, #006eff85);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 section {
     padding: 1.5rem;
@@ -131,6 +137,9 @@ section {
     border: 1px solid white;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.800);
+}
+.boxTipo img {
+    width: 200px;
 }
 .localBotao{
     padding: 1rem;
@@ -204,21 +213,36 @@ section {
 }
 .boxSobre { /*Igual a boxServico*/
     margin-top: 2rem;
-    height: 350px;
+    height: 500px;
     width: 885px;
     border: 1px solid white;
     border-radius: 10px;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.4));
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
-.containerBoxesSobre2, .containerBoxesContato {
+.boxSobre h3, .boxSobre ul, .boxSobre2 h3, .boxSobre2 ul, .boxSobre2 .fraseSobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+.boxSobre ul li, .boxSobre2 ul li {
+    list-style: none;
+}
+
+.containerBoxesSobre2 {
     display: flex;
     gap: 50px;
 }
 .boxSobre2 { /*Igual a boxServico*/
     margin-top: 5rem;
     margin-bottom: 2rem;
-    height: 350px;
+    height: 250px;
     width: 400px;
     border: 1px solid white;
     border-radius: 10px;
@@ -234,14 +258,35 @@ section {
     gap: 10px;
     gap: 5px;
     background-color: #122133;
-    height: 600px;
+    height: 700px;
     border-bottom: 1px solid white;
 }
 #equipe .funcionarioEquipe {
-    width: 80%;
+    width: 700px;
     height: 200px;
     border-radius: 5px;
-    background-color: #2f2f35;
+    background-color: #ffffff;
+    display: flex;
+}
+#equipe .funcionarioEquipe .containerNome_Foto .nomeFuncionario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    color: #000000;
+}
+#equipe .funcionarioEquipe .containerNome_Foto .imgEquipe img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+}
+#equipe .funcionarioEquipe .descricaoEquipe {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: #000;
+    gap: 1rem;
 }
 /*Contato*/
 #contato {
@@ -252,18 +297,49 @@ section {
     justify-content: center;
     align-items: center;
 }
-.formContato1 {
+#contato .tituloMeioClaro, #equipe .tituloMeioClaro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.formContato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 1rem;
     height: 350px;
     width: 500px;
-    border: 1px solid white;
     border-radius: 10px;
-    background-color: #3A3A3F;
+    background-color: #ffffff;
     padding: 1rem;
 }
-.explicacao {
+#contato form {
     display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 10px;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+}
+#contato form input {
+    padding: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+#contato form label{
+    font-size: 14px;
+    color: #000000;
+    display: block;
+}
+#contato select{
+    border-radius: 100px;
+    height: 27px;
+}
+#contato form button{
+    margin-top: 0.5rem;
+    height: 35px;
+    border-radius: 100px;
+    border: none;
+}
+#contato select option{
+    margin-left: 1px;
 }

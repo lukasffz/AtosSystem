@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtosSystem</title>
+    <link rel="stylesheet" href="./style/styleformulario.css">
+</head>
+<body>
+      <header class="topo">
+        <div class="cabeca">
+            <div class="logoHeader">
+                <a href="index.html"><img src="./imagens/cabecalhoFinal.png" class="logo"></a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="./index.html#contato">Contato</a></li> 
+                </ul>
+            </nav>
+            <div><a href="indexLogin.html"><img src="./imagens/icones/iconUsuarioBranco.png" alt="Login"></a></div>
+            <!--
+            <div class="loginIconHeader">
+                <a href="" class="loginLINK">
+                    <img src="" class="login-icon">
+                </a>
+            </div>
+            -->
+            
+        </div>
+    </header>
+    <main>
+        <div class="titulo1">
+            <h1>Preencha os dados para contar</h1>
+            <h1 class="azul"> como podemos ajudar o seu negócio </h1>
+        </div>
+        
+        <section class="contato">
+                <form action="./indexLogin.html" class="form-container" id="form_atos">
+                    <label>Nome</label>
+                    <input type="text" placeholder="Ex. Lukas Ferreira" required>
+
+                    <label>E-mail</label>
+                    <input type="email" placeholder="Ex. lukasferreira@atosssystem.com.br" required>
+
+                    <label>Telefone</label>
+                    <input type="number" placeholder="Ex. 11 999999999" required>
+
+                    <label>Serviços</label>
+                    <select required>
+                        <option value=""  disabled selected hidden >Selecione o serviço</option>
+                        <option value="consul">Consultoria</option>
+                        <option value="dev">Desenvolvimento de Sistemas</option>
+                    </select>
+                    <label>Descrição</label>
+                    <textarea placeholder="Ex. Preciso implementar uma plataforma de gestão na minha loja."></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+        </section>
+    </main>
+    <footer>
+        <section class="footerImgCopy">
+            <img src="./imagens/logoEscura-removebg-preview.png" alt="AtosSystem" width="50px">
+            &copy; AtosSystem | 2026
+        </section>
+    </footer>
+</body>
+</html>

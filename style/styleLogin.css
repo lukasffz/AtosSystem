@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -6,11 +6,11 @@ html{
     scroll-behavior: smooth;
     scroll-padding-top: 130px;
 }
-body{
+body {
     margin: 0;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #006eff7c;
+    background-color: #484848;
     padding-top: 50px;
 }
 .topo {
@@ -21,7 +21,7 @@ body{
     position: fixed;
     top: 0;
 }
-main{
+main {
     margin-top: 80px;
     min-height: 80vh;
     justify-content: center;
@@ -31,7 +31,7 @@ main{
 footer {
     background-color: #3A3A3F;
     width: 100%;
-    height:100%;
+    height: 100%;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
@@ -87,85 +87,85 @@ footer {
 .cabeca nav ul li a:hover {
     text-decoration: underline;
 }
-
-#estrategica, #design, #tecnica{
-    padding: 1rem;
-    border-bottom: 1px solid rgb(255, 255, 255);
-}
-
-.titulo{
-    font-family:Arial, Helvetica, sans-serif ;
-    font-size:  35px;
-    justify-content: left;
-}
-.titulotipo{
-    font-family:Arial, Helvetica, sans-serif ;
-    font-size:  35px;
+.titulo1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: -80px;
-    text-decoration: underline 2px;
+    gap: 0.5rem;
+}
+.azul{
+    background: linear-gradient(to right, #000000b2, #006eff85);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contato{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+
+.form-container{
+  background:#fff;
+  padding:50px;
+  width:420px;
+  border-radius:30px;
+  box-shadow:0 10px 40px rgba(0,0,0,0.15);
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  padding-right: 5rem;
+  margin-bottom: 20rem;
+  padding-bottom: 200px;
+}
+
+label{
+  font-size:14px;
+  color:#333;
+}
+
+input, select, textarea{
+  width:100%;
+  padding:14px 18px;
+  border-radius:25px;
+  border:1px solid #e5e5e5;
+  background:#ffffff;
+  font-size:14px;
+  outline:none;
+}
+
+textarea{
+  border-radius:18px;
+  min-height:120px;
+  resize:none;
+}
+
+input::placeholder,
+textarea::placeholder{
+  color:#b8b8b8;
+}
+
+button{
+  margin-top:20px;
+  padding:12px;
+  border-radius:25px;
+  border:1px solid #ccc;
+  background:#fff;
+  cursor:pointer;
+  width:160px;
+  align-self:center;
+  transition:0.3s;
+}
+
+button:hover{
+  background:#f2f2f2;
+}
+select{
+    width: 28.7rem;
+}
+.tituloLogin{
+    font-size: 80px;
     
-}
-.editatexto{
-    font-size: 19px;
-    max-width: 800px;          
-    width: 90%;                 
-    
-}
-.editatexto p{
-      
-        text-justify: inter-word;
-        font-size: 18px;
-        line-height: 1.8;
-        letter-spacing: 0.3px;      
-        word-spacing: 1px;
-        justify-content: left;
-
-}
-.parede{
-    padding: 40px 20px;
-    width: 60%;
-    height: 50%;
-    display: flex;
-}
-
-.boxcontato{
-    border: 2px solid #122133;
-    width: 190px;
-    height: auto;
-    border-radius: 15px;
-    padding: 20px;
-    background-color: white;
-}
-#contato {
-    display: flex;
-    background-color: #122133;
-    justify-content: space-between;
-}
-#contato .parede {
-    display: flex;
-    flex-direction: column;
-    margin-left: 25rem;
-}
-#contato .parede2 {
-    display: flex;
-    flex-direction: column;
-    margin-right: 25rem;
-}
-
-#tecnica, #contato, #design, #estrategica, #explicacaoConsultoria {
-    min-width: 90%;
-    display: flex;
-    align-items: center ;
-    min-height: 500px;
-    justify-content: center;
-    border-bottom: 1px solid rgb(255, 255, 255);
-
-}
-#contato{
-    background-image: url(../imagens/backgroundLogo.png);
 }
