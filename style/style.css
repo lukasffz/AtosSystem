@@ -95,7 +95,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    background: radial-gradient( #0b459285, #006eff8c);
+    background: radial-gradient( #ffffffbd, #006eff8c);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -263,8 +263,14 @@ section {
     width: 700px;
     height: 200px;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.4));
+    border: 1px solid white;
     display: flex;
+}
+#equipe .funcionarioEquipe:hover{
+    transform: scale(1.05);
+    transition: transform 1s;
+    background-color: #ffffff;
 }
 #equipe .funcionarioEquipe .containerNome_Foto .nomeFuncionario{
     display: flex;
@@ -295,12 +301,6 @@ section {
     justify-content: center;
     align-items: center;
 }
-#contato .tituloMeioClaro, #equipe .tituloMeioClaro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-}
 .formContato {
     display: flex;
     justify-content: center;
@@ -322,6 +322,7 @@ section {
     padding: 0.3rem;
     border: 1px solid #ccc;
     border-radius: 15px;
+    height: 25px;
 }
 #contato form label{
     font-size: 14px;
@@ -337,6 +338,11 @@ section {
     height: 35px;
     border-radius: 100px;
     border: none;
+    cursor: pointer;
+}
+#contato form button:hover{
+    transform: scale(1.05);
+    transition: transform .5s;
 }
 #contato select option{
     margin-left: 1px;
