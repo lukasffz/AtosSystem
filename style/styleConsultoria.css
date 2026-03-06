@@ -10,8 +10,8 @@ body{
     margin: 0;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #006eff7c;
     padding-top: 50px;
+    background: radial-gradient(circle at top right, #0a2442 0%, #050d14 100%);
 }
 .topo {
     width: 100%;
@@ -87,7 +87,6 @@ footer {
 .cabeca nav ul li a:hover {
     text-decoration: underline;
 }
-
 #estrategica, #design, #tecnica{
     padding: 1rem;
     border-bottom: 1px solid rgb(255, 255, 255);
@@ -98,16 +97,22 @@ footer {
     font-size:  35px;
     justify-content: left;
 }
+#sectionTitulo {
+    min-width: 90%;
+    display: flex;
+    align-items: center ;
+    min-height: 150px;
+    justify-content: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: linear-gradient(to right, #000000b2, #006eff85)
+}
 .titulotipo{
     font-family:Arial, Helvetica, sans-serif ;
-    font-size:  35px;
+    font-size:  30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: -80px;
-    text-decoration: underline 2px;
     
 }
 .editatexto{
@@ -161,10 +166,9 @@ footer {
     min-width: 90%;
     display: flex;
     align-items: center ;
-    min-height: 500px;
+    min-height: 400px;
     justify-content: center;
     border-bottom: 1px solid rgb(255, 255, 255);
-
 }
 #contato{
     background-image: url(../imagens/backgroundLogo.png);

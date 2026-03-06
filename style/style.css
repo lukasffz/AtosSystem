@@ -10,7 +10,7 @@ body {
     margin: 0;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #006eff7c;
+    background: radial-gradient(circle at top right, #0a2442 0%, #0a1b2c 100%);
     padding-top: 50px;
 }
 .topo {
@@ -95,7 +95,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    background: linear-gradient(to right, #000000b2, #006eff85);
+    background: radial-gradient( #0b459285, #006eff8c);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -256,8 +256,6 @@ section {
     align-items: center;
     /* Espaçamento entre os itens */
     gap: 10px;
-    gap: 5px;
-    background-color: #122133;
     height: 700px;
     border-bottom: 1px solid white;
 }
