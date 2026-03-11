@@ -99,7 +99,6 @@ footer {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 section {
     padding: 1.5rem;
@@ -158,6 +157,11 @@ section {
     border-radius: 5px;
     cursor: pointer;
 }
+.botaoServicos:hover{
+    background-color: white;
+    color: black;
+    transition: .4s;   
+}
 /*Projetos*/
 .containerProjetos{
     display: flex;
@@ -168,9 +172,10 @@ section {
 }
 .tipoProjetos {
     height: 300px;
-    width: 80%;
-    background-color: #3A3A3F71;
-    border-radius: 5px;
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.4));
 }
 .tituloProjetos {
     display: flex;
@@ -266,11 +271,6 @@ section {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.4));
     border: 1px solid white;
     display: flex;
-}
-#equipe .funcionarioEquipe:hover{
-    transform: scale(1.05);
-    transition: transform 1s;
-    background-color: #ffffff;
 }
 #equipe .funcionarioEquipe .containerNome_Foto .nomeFuncionario{
     display: flex;
