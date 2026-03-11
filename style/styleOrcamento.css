@@ -95,7 +95,7 @@ footer {
     gap: 0.5rem;
 }
 .azul{
-    background: linear-gradient(to right, #000000b2, #006eff85);
+    background: linear-gradient(to right, #ffffffb2, #006eff85);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
