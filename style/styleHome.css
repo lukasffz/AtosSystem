@@ -277,19 +277,20 @@ section {
     justify-content: center;
     align-items: center;
     margin-top: 5px;
-    color: #000000;
+    font-size: 15px;
+    color: #ffffff;
 }
 #equipe .funcionarioEquipe .containerNome_Foto .imgEquipe img{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
+    width: 160px;
 }
 #equipe .funcionarioEquipe .descricaoEquipe {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    color: #000;
+    color: #ffffff;
     gap: 1rem;
 }
 /*Contato*/
