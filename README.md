@@ -1,81 +1,69 @@
-# Atos
-Projeto de Desenvolvimento Web | Empresa de Consultoria e Desenvolvimento de Sistemas
+# AtosSystem - Inovação Digital com Propósito 🚀
 
-Explicações Site
-COR BODY - background-image: linear-gradient(to bottom, #37539980, #122133);
-COR HEADER - background: #2f2f35; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+A **AtosSystem** é uma plataforma de landing page desenvolvida para uma empresa de consultoria e desenvolvimento de sistemas. [cite_start]O projeto foca na transformação de desafios complexos em soluções de software de alta performance, unindo um design sofisticado (Glassmorphism) e uma arquitetura front-end sólida[cite: 2, 4, 35].
 
-Header (Base)
-Cabeçalho horizontal minimalista (Fixo sempre em cima na tela)
-Mostrar automaticamente em qual pagina estamos ao ir passando o mouse [globalti]
-	Imagem da Logo puxa a página Home -esquerda-
-	Tag Nav
-		Sobre (Redirecionando diretamente na home) -centro-
-		Serviços (Redirecionando diretamente na home) -centro-
-		Contato (Redirecionando para o formulario no final da home) -centro-
-	Ícone - Login (Caso tenha) -direita-
+---
 
+## 🎯 Objetivo do Projeto
 
-Footer (Base)
-	Imagem da Logo (Canto esquerdo) -opcional-
-	Tag Nav - 3 proximos itens
-		Entre em Contato (Título No meio)
-		Ícones de Contato (E-Mail; WhatsApp; Telefone)
-		Redes Sociais (Linkedin; Facebook; X; Instagram)
-	Copyright 2026 AtosSystem
+[cite_start]O nome **Atos** remete à ação e execução, transmitindo a ideia de resultados concretos no mercado de tecnologia. [cite_start]Este site foi construído para servir como o portal principal da marca, comunicando credibilidade através de um Design System baseado em tons de azul tecnológico, cinza e preto[cite: 11, 12, 28].
 
-Main (Da página principal)
-    ----- Serviços -----
-    Imagens ilustrativas de cada serviço e breve explicação
-    Serviços
-        Consultoria (Section)
-            Explicação do que ocorre na consultoria e cada tipo de consultoria e como ajudaria na evolução [paxtecnologia] (Em cards com borda com baixa opacidade, o saiba mais apenas aparece ao passar o mouse -hover- [devise.dev])
-            Objetivo [devise.dev]
-            Saiba Mais
+---
 
-        Desenvolvimento de Sistemas (Section)
-            Especificação de cada tipo de sistema e breve explicação (Ex.: Sistema Web, APP, Automação, etc) (Em cards com borda com baixa opacidade, o saiba mais apenas aparece ao passar o mouse -hover- [devise.dev])
-            Objetivo [devise.dev]
-            Saiba Mais
+## 🛠️ Tecnologias e Conceitos
 
-	----- Projetos -----
-	Section com 3 projetos de exemplo já realizados pela empresa (desenvolvimento)
-	Foto projeto | Tecnologias usadas - Provavelmente ícones -
+Para manter a performance e a fidelidade ao design planejado, utilizamos:
 
-	----- Sobre -----
-	Quem Somos (Sobre)
-		Tempo de Mercado
-		Por que começamos
-		Valores e ideias
-	Como Trabalhamos (Sobre)
-		Frase de efeito (Atuamos com foco em inovação, performance e entrega de resultados alinhados aos objetivos de negócio de curto e longo prazo para cada um de nossos clientes.)
-		Projetos | Squads Gerenciadas | Consultoria/Suporte
-    Estatísticas
-		box com dados estatísticos especificando clientes ativos e problemas ja resolvidos 
+* [cite_start]**HTML5 Semântico**: Estruturação focada em SEO e acessibilidade[cite: 35].
+* **CSS3 Moderno**:
+    * [cite_start]**Flexbox & Grid**: Para layouts responsivos e alinhamentos precisos[cite: 35].
+    * [cite_start]**Glassmorphism**: Aplicação de transparências e efeitos de profundidade através de `backdrop-filter`[cite: 14, 17].
+    * [cite_start]**UI/UX**: Design baseado em referências de alto padrão como Devise, Thoughtworks e Pax Tecnologia[cite: 35].
+* [cite_start]**Arquitetura de Navegação**: Cabeçalho fixo (Header) no topo da página para facilitar o acesso rápido às seções[cite: 16, 17].
 
-	----- Contato -----
-    Forms de Contato [able2cloud]
-        Box1 [Nome | Email | Telefone | Mensagem || Enviar Mensagem]
-        Box2 [ícone + Telefone | ícone + Email | ícone + Localização]
+---
 
+## 🏗️ Estrutura de Páginas
 
+O ecossistema do projeto está dividido para cobrir toda a jornada do cliente:
 
+1.  [cite_start]**Home (`index.html`)**: Portal principal com visão geral dos serviços, projetos e equipe[cite: 26, 28].
+2.  [cite_start]**Consultoria (`indexConsultoria.html`)**: Detalhes sobre consultoria estratégica e UX/UI[cite: 29].
+3.  [cite_start]**Desenvolvimento (`indexDesenvolvimento.html`)**: Foco em software web e mobile[cite: 30].
+4.  [cite_start]**Orçamento (`indexOrcamento.html`)**: Formulário para solicitação direta de serviços[cite: 31].
+5.  [cite_start]**Área do Cliente**: Acesso restrito via login para acompanhamento de status de projetos[cite: 32, 33].
 
------
+---
 
-Main (Página de Consultoria & Página de DS [Separadas])
-Abaixo do Header, uma foto pegando toda a largura com o Título na frente (Section/div)
-	Explicação detalhada de cada tipo de consultoria ou desenvolvimento de sistemas em sections
-	Jornada de Implementação (Cada Passo) [paxtecnologia & globalti]
-	Resultados e Ganhos (Por tema [Ex.: Agilidade; Lucro; Etc]) [paxtecnologia & globalti]
-	Entrar em Contato
-	
-Referências
-	https://paxtecnologia.com.br/ (Imagens de cada serviço)
-	https://www.devise.dev/ (Objetivos e cards)
-	https://www.avivatec.com.br/ -principal-
-	https://www.deal.com.br/ -principal-
-	https://www.globalti.com.br/
-	https://www.thoughtworks.com/pt-br
-	https://able2.cloud/ -Form Contato-
-	https://ateliware.com/pt-br/ - Projetos já feitos -
+## 📁 Organização de Pastas
+
+```text
+/
+├── index.html              # Portal principal da empresa
+├── indexConsultoria.html   # Detalhes de consultoria
+├── indexDesenvolvimento.html# Foco em software web e mobile
+├── indexOrcamento.html     # Formulário de orçamento
+├── style/
+│   └── styleHome.css       # Guia de estilos e layout base
+├── imagens/                # Logotipos e assets visuais
+└── docs/                   # Documentação técnica do projeto
+```
+---
+
+## 🚀 Como Visualizar
+
+1. Faça o clone deste repositório.
+2. Certifique-se de que a estrutura de pastas de imagens está correta conforme o mapeamento do projeto.
+3. Abra o arquivo `index.html` no seu navegador ou utilize a extensão **Live Server** no VS Code para uma melhor experiência de desenvolvimento.
+
+---
+
+## 👨‍💻 Equipe AtosSystem
+
+* **Lukas Ferreira**: Gerente de Projeto & Desenvolvedor.
+* **Leonardo Ferreira**: Desenvolvedor.
+* **Igor Bosqueiro**: Desenvolvedor.
+
+---
+
+> "A palavra 'Atos' remete à ação e execução. No mercado de tecnologia, transmite a ideia de resultados concretos."

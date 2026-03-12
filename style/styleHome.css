@@ -85,8 +85,73 @@ footer {
 .cabeca nav ul li a:hover {
     text-decoration: underline;
 }
-
-#servicos, #projetos, #sobre {
+#bannerAtos {
+    min-height: 60vh;
+    background-image: url('../imagens/banner.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    margin-top: -150px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.ajustaConteudo {
+    max-width: 800px;
+    margin: 0 auto; /*Ajusta automaticamente*/
+    text-align: center;
+}
+/* Tipografia */
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.highlight {
+    color: #00e5ff; /* Ciano da logo */
+}
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #cbd5e0;
+    margin-bottom: 40px;
+}
+.containerItens {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.item h3 {
+    font-size: 1.2rem;
+    color: #00e5ff;
+    margin-bottom: 10px;
+}
+.item p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+.btn-acao {
+    display: inline-block; /*Automaticamente torna do tamanho do texto*/
+    padding: 15px 35px;
+    background: linear-gradient(135deg, #00e5ff 0%, #007bff 100%);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-acao:hover {
+    transform: translateY(-3px); /*Posição vertical*/
+    box-shadow: 0 10px 20px rgba(0, 229, 255, 0.3);
+}
+/*Estilizando sections separadamente*/
+#servicos, #projetos, #sobre, #bannerAtos {
     padding: 1rem;
     border-bottom: 1px solid rgb(255, 255, 255);
 }
@@ -119,16 +184,26 @@ section {
     border-radius: 10px;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.4));
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.boxServico .imgServico {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .boxServico .tituloServico {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 .boxesTipo {
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
+    align-items: center;
 }
 .boxTipo {
     width: 200px;
@@ -152,14 +227,14 @@ section {
     height: 40px;
     justify-content: center;
     align-items: center;
-    background-color: #3A3A3F;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     cursor: pointer;
 }
 .botaoServicos:hover{
-    background-color: white;
-    color: black;
+    background-color: #3A3A3F;
+    color: #ffffff;
     transition: .4s;   
 }
 /*Projetos*/
@@ -216,43 +291,105 @@ section {
     justify-content: center;
     align-items: center;
 }
-.boxSobre { /*Igual a boxServico*/
-    margin-top: 2rem;
-    height: 500px;
-    width: 885px;
+/*Box Principal*/
+.boxSobre {
+    width: 100%;
+    max-width: 885px;
+    min-height: 350px; /*min-height em vez de altura fixa*/
     border: 1px solid white;
     border-radius: 10px;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.4));
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-}
-.boxSobre h3, .boxSobre ul, .boxSobre2 h3, .boxSobre2 ul, .boxSobre2 .fraseSobre {
-    display: flex;
-    flex-direction: column;
+    gap: 2rem;
     justify-content: center;
+}
+.conteudoSobre {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-top: 10px;
-    gap: 10px;
+    text-align: center;
 }
-.boxSobre ul li, .boxSobre2 ul li {
+.conteudoSobre h3 {
+    margin-bottom: 12px;
+    color: #4a90e2;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase; /*MAIUSCULA*/
+    letter-spacing: 1px;
+}
+.conteudoSobre p {
+    line-height: 1.7;
+    font-size: 1rem;
+    color: #e2e8f0;
+    max-width: 700px;
+}
+.conteudoSobre ul {
+    display: grid; /*Organiza elementos em linhas e colunas simultaneamente*/
+    grid-template-columns: repeat(2, 1fr); /*Duas colunas iguais*/
+    gap: 15px;
+    margin-top: 20px;
     list-style: none;
+    width: 100%;
 }
-
+.conteudoSobre ul li {
+    text-align: center;
+    font-size: 0.9rem;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s;
+}
+.conteudoSobre ul li:hover {
+    transform: translateY(-2px); /*Posicao vertical*/
+    background: rgba(255, 255, 255, 0.1);
+}
+/*Container Boxes2*/
 .containerBoxesSobre2 {
     display: flex;
-    gap: 50px;
+    gap: 30px;
+    margin-top: 4rem;
+    width: 100%;
+    max-width: 850px;
 }
-.boxSobre2 { /*Igual a boxServico*/
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    height: 250px;
-    width: 400px;
-    border: 1px solid white;
-    border-radius: 10px;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.4));
-    padding: 1rem;
+.boxSobre2 {
+    flex: 1;
+    border: 1px solid #ffffff;
+    border-radius: 16px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.25));
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.3s;
+}
+.boxSobre2:hover {
+    box-shadow: 0 10px 30px rgba(74, 144, 226, 0.2);
+}
+.boxSobre2 h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #4a90e2;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+}
+.boxSobre2 ul, .boxDados ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+}
+.boxSobre2 ul li, .boxDados ul li {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #cbd5e1;
+}
+.boxSobre2 ul li strong, .boxDados ul li b {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 2px;
 }
 /*Equipe*/
 #equipe {
@@ -261,16 +398,29 @@ section {
     align-items: center;
     /* Espaçamento entre os itens */
     gap: 10px;
-    height: 700px;
+    height: 1000px;
     border-bottom: 1px solid white;
 }
 #equipe .funcionarioEquipe {
     width: 700px;
-    height: 200px;
+    height: 250px;
     border-radius: 5px;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.4));
-    border: 1px solid white;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.25));
+    border: 1px solid #ffffff;
     display: flex;
+}
+.funcionarioEquipe:hover {
+    box-shadow: 0 10px 30px rgba(74, 144, 226, 0.2);
+}
+#equipe .funcionarioEquipe .containerNome_Foto {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+#equipe .funcionarioEquipe .containerNome_Foto img {
+    border-radius: 5px;
+    border: 1px solid #ffffff;
 }
 #equipe .funcionarioEquipe .containerNome_Foto .nomeFuncionario{
     display: flex;
