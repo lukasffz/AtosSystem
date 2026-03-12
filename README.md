@@ -1,12 +1,12 @@
 # AtosSystem - Inovação Digital com Propósito 🚀
 
-A **AtosSystem** é uma plataforma de landing page desenvolvida para uma empresa de consultoria e desenvolvimento de sistemas. [cite_start]O projeto foca na transformação de desafios complexos em soluções de software de alta performance, unindo um design sofisticado (Glassmorphism) e uma arquitetura front-end sólida[cite: 2, 4, 35].
+A **AtosSystem** é uma plataforma de landing page desenvolvida para uma empresa de consultoria e desenvolvimento de sistemas. O projeto foca na transformação de desafios complexos em soluções de software de alta performance, unindo um design sofisticado (Glassmorphism) e uma arquitetura front-end sólida.
 
 ---
 
 ## 🎯 Objetivo do Projeto
 
-[cite_start]O nome **Atos** remete à ação e execução, transmitindo a ideia de resultados concretos no mercado de tecnologia. [cite_start]Este site foi construído para servir como o portal principal da marca, comunicando credibilidade através de um Design System baseado em tons de azul tecnológico, cinza e preto[cite: 11, 12, 28].
+O nome **Atos** remete à ação e execução, transmitindo a ideia de resultados concretos no mercado de tecnologia. Este site foi construído para servir como o portal principal da marca, comunicando credibilidade através de um Design System baseado em tons de azul tecnológico, cinza e preto.
 
 ---
 
@@ -14,12 +14,12 @@ A **AtosSystem** é uma plataforma de landing page desenvolvida para uma empresa
 
 Para manter a performance e a fidelidade ao design planejado, utilizamos:
 
-* [cite_start]**HTML5 Semântico**: Estruturação focada em SEO e acessibilidade[cite: 35].
+* **HTML5 Semântico**: Estruturação focada em SEO e acessibilidade.
 * **CSS3 Moderno**:
-    * [cite_start]**Flexbox & Grid**: Para layouts responsivos e alinhamentos precisos[cite: 35].
-    * [cite_start]**Glassmorphism**: Aplicação de transparências e efeitos de profundidade através de `backdrop-filter`[cite: 14, 17].
-    * [cite_start]**UI/UX**: Design baseado em referências de alto padrão como Devise, Thoughtworks e Pax Tecnologia[cite: 35].
-* [cite_start]**Arquitetura de Navegação**: Cabeçalho fixo (Header) no topo da página para facilitar o acesso rápido às seções[cite: 16, 17].
+    * **Flexbox & Grid**: Para layouts responsivos e alinhamentos precisos.
+    * **Glassmorphism**: Aplicação de transparências e efeitos de profundidade através de `backdrop-filter`.
+    * **UI/UX**: Design baseado em referências de alto padrão como Devise, Thoughtworks e Pax Tecnologia.
+* **Arquitetura de Navegação**: Cabeçalho fixo (Header) no topo da página para facilitar o acesso rápido às seções.
 
 ---
 
@@ -27,11 +27,11 @@ Para manter a performance e a fidelidade ao design planejado, utilizamos:
 
 O ecossistema do projeto está dividido para cobrir toda a jornada do cliente:
 
-1.  [cite_start]**Home (`index.html`)**: Portal principal com visão geral dos serviços, projetos e equipe[cite: 26, 28].
-2.  [cite_start]**Consultoria (`indexConsultoria.html`)**: Detalhes sobre consultoria estratégica e UX/UI[cite: 29].
-3.  [cite_start]**Desenvolvimento (`indexDesenvolvimento.html`)**: Foco em software web e mobile[cite: 30].
-4.  [cite_start]**Orçamento (`indexOrcamento.html`)**: Formulário para solicitação direta de serviços[cite: 31].
-5.  [cite_start]**Área do Cliente**: Acesso restrito via login para acompanhamento de status de projetos[cite: 32, 33].
+1.  **Home (`index.html`)**: Portal principal com visão geral dos serviços, projetos e equipe.
+2.  **Consultoria (`indexConsultoria.html`)**: Detalhes sobre consultoria estratégica e UX/UI.
+3.  **Desenvolvimento (`indexDesenvolvimento.html`)**: Foco em software web e mobile.
+4.  **Orçamento (`indexOrcamento.html`)**: Formulário para solicitação direta de serviços.
+5.  **Área do Cliente**: Acesso restrito via login para acompanhamento de status de projetos.
 
 ---
 
